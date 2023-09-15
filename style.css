@@ -1,0 +1,48 @@
+
+input:checked{
+    height: 20px;
+    width:20px ;
+}
+#dd:enabled{
+    background-color: blue;
+}
+input:disabled{
+    background-color: brown;
+}
+div p:first-of-type{
+    color: blueviolet;
+}
+div #gg{
+    color: red;
+}
+div #uu{
+    color: aquamarine;
+}
+div #oo{
+    color:coral ;
+}
+#ss:focus{
+background-color: aqua;
+}
+#ee:in-range{
+    border: 2px solid green;
+}
+#ee:out-of-range{
+    border: 2px solid red;
+}
+#tt:valid{
+    color: forestgreen;
+}
+#tt:invalid{
+    color: red;
+}
+.main-box{
+    border: 2px solid black;
+    height: 600px;
+    width: 800px;
+}
+.sub-box{
+    border: 2px solid gray;
+    height: 250px;
+    width: 700px;
+}
